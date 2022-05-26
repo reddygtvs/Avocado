@@ -18,20 +18,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        next_btn = (Button) findViewById(R.id.next_button);
+
+        next_btn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(),custom.class);
+                startActivity(intent);
+            }
+        });
     }
 }
 
-
-
-//        next_btn = (Button) findViewById(R.id.next_button);
-//send_name = (EditText) findViewById(R.id.user_name_input);
-
-//next_btn.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View v){
-//                String str = send_name.getText().toString();
-//                Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
-//                intent.putExtra("msg_key",str);
-//                startActivity(intent);
-//            }
-//        });

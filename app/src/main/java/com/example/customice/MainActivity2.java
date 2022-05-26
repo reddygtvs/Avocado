@@ -21,10 +21,5 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         },2000);
-
-//        rcv_name = (TextView) findViewById(R.id.name_display);
-//        Intent intent = getIntent();
-//        String str = intent.getStringExtra("msg_key");
-//        rcv_name.setText("Welcome " + str);
     }
 }

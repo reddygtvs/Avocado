@@ -2,4 +2,8 @@
     <string name="app_name">CustomIce</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">Flavor</string>
+    <string name="tab_text_2">Toppings</string>
+    <string name="tab_text_3">Type</string>
 </resources>
